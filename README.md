@@ -2,14 +2,19 @@
 
 Eslint standard rules for React + Typescript projects, because we like our code to be neat and tidy! 💻✨
 
-It uses the following magical packages to ensure code quality and consistency:
+## Dependencies
 
-- @typescript-eslint/eslint-plugin
-- @typescript-eslint/parser
-- eslint-config-prettier
-- eslint-plugin-jsx-a11y
-- eslint-plugin-promise
-- eslint-plugin-react
+This configuration relies on some peer dependencies you must add in your project as dev dependencies:
+
+- [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)
+- [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
+- [eslint-plugin-promise](https://github.com/eslint-community/eslint-plugin-promise)
+- [eslint-plugin-react-hooks](https://github.com/facebook/react)
+- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+- [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library)
 
 ## Installation 🚀
 

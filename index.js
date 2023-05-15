@@ -20,13 +20,22 @@ module.exports = {
             version: 'detect',
         },
     },
-    plugins: ['@typescript-eslint', 'promise', 'jsx-a11y', 'react'],
+    plugins: [
+        '@typescript-eslint',
+        'import',
+        'jsx-a11y',
+        'promise',
+        'react-hooks',
+        'react',
+        'testing-library'
+],
     extends: [
         'eslint:recommended',
-        'plugin:react/recommended',
-        'plugin:react/jsx-runtime',
-        'plugin:promise/recommended',
         'plugin:@typescript-eslint/recommended',
+        'plugin:promise/recommended',
+        'plugin:react-hooks/recommended',
+        'plugin:react/jsx-runtime',
+        'plugin:react/recommended',
         'prettier',
     ],
     rules: {
